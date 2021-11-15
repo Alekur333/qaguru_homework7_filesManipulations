@@ -1,6 +1,7 @@
 package kur.alexei.pages;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.FileDownloadMode;
 import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Attachment;
 import org.junit.jupiter.api.BeforeAll;
@@ -14,6 +15,8 @@ public class BasePage {
     public static void beforeTest() {
 
         Configuration.browserSize="1200x800";
+//        Configuration.proxyEnabled = true;
+//        Configuration.fileDownload = FileDownloadMode.PROXY;
 
     }
 
