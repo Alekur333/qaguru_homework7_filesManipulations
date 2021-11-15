@@ -44,10 +44,10 @@ dependencies {
             "org.assertj:assertj-core:3.19.0",
             "org.aeonbits.owner:owner:1.0.12",
             "io.qameta.allure:allure-selenide:2.16.0",
-//            'commons-io:commons-io:2.11.0',
-//            'com.codeborne:pdf-test:1.7.0',
-//            'com.codeborne:xls-test:1.2',
-//            'com.opencsv:opencsv:5.5.2',
+            'commons-io:commons-io:2.11.0',
+            'com.codeborne:pdf-test:1.7.0',
+            'com.codeborne:xls-test:1.2',
+            'com.opencsv:opencsv:5.5.2',
             //'io.rest-assured:rest-assured:4.4.0',
             //"io.qameta.allure:allure-rest-assured:2.15.0"
     )
